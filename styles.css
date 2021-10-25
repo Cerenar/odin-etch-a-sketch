@@ -1,5 +1,8 @@
 html {
-	background-color: #555555;
+	background-color: #333333;
+	font-family: "Segoe UI", "Verdana", sans-serif;
+	font-style: italic;
+	font-weight: 600;
 }
 
 body {
@@ -16,6 +19,9 @@ button {
 	border-radius: 50px;
 	font-size: 16px;
 	border: 4px solid black;
+	font-family: "Segoe UI", "Verdana", sans-serif;
+	font-style: italic;
+	font-weight: 600;
 }
 
 button:hover {
@@ -51,9 +57,10 @@ button:active {
 	justify-content: space-around;
 	align-items: center;
 	border: 6px solid black;
-	padding: 50px 80px;
+	padding: 30px 80px;
 	gap: 50px;
 	border-radius: 96px;
+	background-color: #551a8b;
 }
 
 .middle-stuff {
@@ -62,8 +69,15 @@ button:active {
 	align-items: space-between;
 }
 
+.home-buttons {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
 .select-start {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	margin-top: 30px;
 }

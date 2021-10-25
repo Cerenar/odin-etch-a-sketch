@@ -4,23 +4,29 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Etch This!</title>
 	<link rel="stylesheet" href="styles.css"/>
 	<script src="etch-a-sketch.js" defer></script>
 </head>
 <body>
 	<div id="gameboy">
-		<button>restart</button>
+		<button class="resize">RESIZE</button>
 		<button></button>
 		<div class="middle-stuff">
 			<div id="container"></div>
-			<div class="select-start">
-				<button class="special"></button>
-				<button class="special"></button>
+			<div class=home-buttons>
+				<div class="select-start">
+					<button class="special clear"></button>
+					<div>CLEAR</div>
+				</div>
+				<div class="select-start">
+					<button class="special recolor"></button>
+					<div>RECOLOR</div>
+				</div>
 			</div>
 		</div>
-		<button>B</button>
-		<button>A</button>
+		<button class="grayscale">GRAY</button>
+		<button class="color">COLOR</button>
 	</div>
 </body>
 </html>
